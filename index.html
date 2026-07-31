@@ -190,6 +190,32 @@
             0%, 100% { filter: brightness(1); box-shadow: 0 4px 15px rgba(37,211,102,0.4); }
             50% { filter: brightness(1.25); box-shadow: 0 4px 25px rgba(37,211,102,0.9), 0 0 20px rgba(37,211,102,0.6); }
         }
+
+        /* Legal Sections */
+        .legal-section { padding: 20px 16px; scroll-margin-top: 60px; }
+        .legal-section:first-of-type { padding-top: 30px; }
+        .legal-card {
+            background: #fff; border-radius: 16px; padding: 20px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        .legal-updated {
+            font-size: 12px; color: #999; text-align: center;
+            margin-bottom: 20px; font-style: italic;
+        }
+        .legal-block { margin-bottom: 18px; }
+        .legal-block:last-child { margin-bottom: 0; }
+        .legal-block h4 {
+            font-size: 15px; font-weight: 700; color: #0d9488;
+            margin-bottom: 8px;
+        }
+        .legal-block p, .legal-block li {
+            font-size: 13px; color: #555; line-height: 1.7;
+        }
+        .legal-block ul { padding-left: 18px; margin-top: 6px; }
+        .legal-block li { margin-bottom: 4px; }
+        .footer-links { padding-bottom: 80px !important; }
+        html { scroll-behavior: smooth; }
+
     </style>
 </head>
 <body>
@@ -209,7 +235,7 @@
             <div class="hero-content">
                 <h2>RB TOUR & TRAVEL</h2>
                 <p>Explore the World with Us</p>
-                <a href="https://wa.me/919358176826?text=Hello%20I%20want%20to%20book%20a%20tour" class="discount-btn" target="_blank">
+                <a href="https://wa.me/919358176826?text=hello" class="discount-btn" target="_blank">
                     <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                     Chat Now
                 </a>
@@ -357,14 +383,172 @@
         </div>
     </div>
 
+
+        <!-- Footer Links -->
+        <div class="footer-links" style="padding: 16px; text-align: center; background: #fff; border-top: 1px solid #eee;">
+            <a href="#privacy-policy" style="color: #0d9488; text-decoration: none; font-size: 13px; font-weight: 600; margin: 0 10px;">Privacy Policy</a>
+            <span style="color: #ccc;">|</span>
+            <a href="#terms-conditions" style="color: #0d9488; text-decoration: none; font-size: 13px; font-weight: 600; margin: 0 10px;">Terms & Conditions</a>
+        </div>
+
+        <!-- Privacy Policy Section -->
+        <div id="privacy-policy" class="legal-section">
+            <h2 class="section-title">Privacy Policy</h2>
+            <div class="legal-card">
+                <p class="legal-updated">Last Updated: July 31, 2026</p>
+
+                <div class="legal-block">
+                    <h4>1. Introduction</h4>
+                    <p>RB Tour & Travel ("we," "us," or "our") respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, store, and safeguard your information when you visit our website or book our tour packages.</p>
+                </div>
+
+                <div class="legal-block">
+                    <h4>2. Information We Collect</h4>
+                    <p>We may collect the following types of information:</p>
+                    <ul>
+                        <li><strong>Personal Information:</strong> Name, phone number, email address, and WhatsApp contact details when you inquire or book a tour.</li>
+                        <li><strong>Travel Details:</strong> Destination preferences, travel dates, number of travelers, and special requirements.</li>
+                        <li><strong>Payment Information:</strong> Billing details processed securely through our payment partners.</li>
+                        <li><strong>Technical Data:</strong> IP address, browser type, device information, and cookies for website analytics.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-block">
+                    <h4>3. How We Use Your Information</h4>
+                    <p>We use your information to:</p>
+                    <ul>
+                        <li>Process and confirm your tour bookings.</li>
+                        <li>Communicate with you via WhatsApp, email, or phone regarding your trip.</li>
+                        <li>Personalize your travel experience and recommend suitable packages.</li>
+                        <li>Improve our website and customer service.</li>
+                        <li>Send promotional offers (only with your consent).</li>
+                    </ul>
+                </div>
+
+                <div class="legal-block">
+                    <h4>4. Sharing Your Information</h4>
+                    <p>We do not sell your personal data. We may share information with:</p>
+                    <ul>
+                        <li>Hotels, airlines, and local transport providers necessary to fulfill your booking.</li>
+                        <li>Payment gateways for secure transaction processing.</li>
+                        <li>Legal authorities if required by law.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-block">
+                    <h4>5. Data Security</h4>
+                    <p>We implement appropriate security measures to protect your data from unauthorized access, alteration, or disclosure. However, no online transmission is 100% secure.</p>
+                </div>
+
+                <div class="legal-block">
+                    <h4>6. Cookies & Tracking</h4>
+                    <p>We use cookies and tools like Google Analytics to understand website traffic. You can disable cookies in your browser settings.</p>
+                </div>
+
+                <div class="legal-block">
+                    <h4>7. Your Rights</h4>
+                    <p>You have the right to access, correct, or delete your personal data. Contact us on WhatsApp at <strong>+91 93581 76826</strong> for any privacy-related requests.</p>
+                </div>
+
+                <div class="legal-block">
+                    <h4>8. Changes to This Policy</h4>
+                    <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with the updated date.</p>
+                </div>
+
+                <div class="legal-block">
+                    <h4>9. Contact Us</h4>
+                    <p>For questions about this Privacy Policy, reach out to us via WhatsApp at <strong>+91 93581 76826</strong> or through our website chat.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Terms & Conditions Section -->
+        <div id="terms-conditions" class="legal-section">
+            <h2 class="section-title">Terms & Conditions</h2>
+            <div class="legal-card">
+                <p class="legal-updated">Last Updated: July 31, 2026</p>
+
+                <div class="legal-block">
+                    <h4>1. Acceptance of Terms</h4>
+                    <p>By accessing our website and booking our services, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use our services.</p>
+                </div>
+
+                <div class="legal-block">
+                    <h4>2. Booking & Payments</h4>
+                    <ul>
+                        <li>All bookings are subject to availability and confirmation.</li>
+                        <li>A deposit or full payment may be required to secure your booking.</li>
+                        <li>Prices are quoted in INR (Indian Rupees) unless otherwise stated.</li>
+                        <li>Payments must be made through the methods specified by RB Tour & Travel.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-block">
+                    <h4>3. Cancellation & Refund Policy</h4>
+                    <ul>
+                        <li>Cancellations made 15+ days before departure: 80% refund.</li>
+                        <li>Cancellations made 7–14 days before departure: 50% refund.</li>
+                        <li>Cancellations made less than 7 days before departure: No refund.</li>
+                        <li>No-shows are non-refundable.</li>
+                        <li>Refunds will be processed within 7–14 business days.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-block">
+                    <h4>4. Traveler Responsibilities</h4>
+                    <ul>
+                        <li>Travelers must carry valid ID proof (Aadhaar, Passport, etc.) during the trip.</li>
+                        <li>Any medical conditions must be disclosed at the time of booking.</li>
+                        <li>Travelers are responsible for their personal belongings.</li>
+                        <li>Disruptive behavior may result in removal from the tour without refund.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-block">
+                    <h4>5. Itinerary Changes</h4>
+                    <p>We reserve the right to modify itineraries due to weather, safety concerns, or unforeseen circumstances. Alternative arrangements of similar value will be offered where possible.</p>
+                </div>
+
+                <div class="legal-block">
+                    <h4>6. Liability Disclaimer</h4>
+                    <p>RB Tour & Travel acts as an intermediary between travelers and service providers (hotels, transporters, guides). We are not liable for:</p>
+                    <ul>
+                        <li>Accidents, injuries, or loss of personal property during the trip.</li>
+                        <li>Delays or cancellations caused by third-party providers.</li>
+                        <li>Natural disasters, political unrest, or other force majeure events.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-block">
+                    <h4>7. Travel Insurance</h4>
+                    <p>We strongly recommend purchasing travel insurance covering medical emergencies, trip cancellations, and lost baggage. RB Tour & Travel does not provide travel insurance.</p>
+                </div>
+
+                <div class="legal-block">
+                    <h4>8. Intellectual Property</h4>
+                    <p>All content on this website — including text, images, logos, and design — is the property of RB Tour & Travel. Unauthorized use, reproduction, or distribution is prohibited.</p>
+                </div>
+
+                <div class="legal-block">
+                    <h4>9. Governing Law</h4>
+                    <p>These Terms & Conditions are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in [Your City], India.</p>
+                </div>
+
+                <div class="legal-block">
+                    <h4>10. Contact</h4>
+                    <p>For any questions regarding these terms, contact us via WhatsApp at <strong>+91 93581 76826</strong>.</p>
+                </div>
+            </div>
+        </div>
+
     <!-- Bottom WhatsApp Bar -->
-    <a class="bottom-wa-bar" href="https://wa.me/919358176826?text=Hello%20I%20want%20to%20book%20a%20tour" target="_blank">
+    <a class="bottom-wa-bar" href="https://wa.me/919358176826?text=hello" target="_blank">
         <svg width="24" height="24" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
         Chat on WhatsApp
     </a>
 
     <!-- Floating WhatsApp -->
-    <a class="wa-float" href="https://wa.me/919358176826?text=Hello%20I%20want%20to%20book%20a%20tour" target="_blank">
+    <a class="wa-float" href="https://wa.me/919358176826?text=hello" target="_blank">
         <svg width="28" height="28" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
     </a>
 
